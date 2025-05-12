@@ -1,0 +1,35 @@
+# activetextclassification/pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activetextclassification"
+version = "0.0.1"  # Versão inicial
+authors = [
+    { name="Seu Nome", email="seu_email@example.com" }, # Substitua ou remova
+]
+description = "Biblioteca para classificação de texto com aprendizado ativo." # Descrição curta
+readme = "README.md" # Opcional, se você criar um README
+requires-python = ">=3.8" # Versão mínima do Python que você suporta
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Escolha sua licença ou remova
+    "Operating System :: OS Independent",
+]
+# --- Dependências da sua biblioteca ---
+# Liste aqui os pacotes que o SEU CÓDIGO importa
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "unidecode",
+    # Adicione outras dependências diretas do seu código .py
+    # Ex: "scikit-learn-extra" se usado dentro da lib
+]
+
+[project.urls]
+"Homepage" = "https://github.com/seu_usuario/activetextclassification" # Opcional
+"Bug Tracker" = "https://github.com/seu_usuario/activetextclassification/issues" # Opcional
