@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 name = "activetextclassification"
 version = "0.0.1"  # Versão inicial
 authors = [
-    { name="Seu Nome", email="seu_email@example.com" }, # Substitua ou remova
+    { name="Gilsiley Henrique Darú", email="ghdaru@gmail.com" }, 
 ]
 description = "Biblioteca para classificação de texto com aprendizado ativo." # Descrição curta
 readme = "README.md" # Opcional, se você criar um README
@@ -29,6 +29,9 @@ dependencies = [
     # Adicione outras dependências diretas do seu código .py
     # Ex: "scikit-learn-extra" se usado dentro da lib
 ]
+
+[tool.setuptools.packages.find]
+where = ["activetextclassification"]  # Diz ao setuptools para procurar pacotes dentro da pasta 'src'
 
 [project.urls]
 "Homepage" = "https://github.com/seu_usuario/activetextclassification" # Opcional
