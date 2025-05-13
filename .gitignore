@@ -93,3 +93,5 @@ venv.bak/
 # Dados sensíveis (exemplo, configurar corretamente)
 # config.ini
 # .secrets
+
+examples/ag_optimization_results_L0_*

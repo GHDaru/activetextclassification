@@ -30,8 +30,9 @@ dependencies = [
     # Ex: "scikit-learn-extra" se usado dentro da lib
 ]
 
-[tool.setuptools.packages.find]
-where = ["activetextclassification"]  # Diz ao setuptools para procurar pacotes dentro da pasta 'src'
+
+[tool.setuptools]
+packages = ["activetextclassification"]
 
 [project.urls]
 "Homepage" = "https://github.com/seu_usuario/activetextclassification" # Opcional
