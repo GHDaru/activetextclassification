@@ -26,6 +26,9 @@ dependencies = [
     "scikit-learn",
     "scipy",
     "unidecode",
+    "matplotlib",
+    "seaborn",
+    "tqdm"
     # Adicione outras dependências diretas do seu código .py
     # Ex: "scikit-learn-extra" se usado dentro da lib
 ]

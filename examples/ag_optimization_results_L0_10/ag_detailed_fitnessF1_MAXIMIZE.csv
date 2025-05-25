@@ -1067,7 +1067,7 @@ generation,individual_id,l0_size,accuracy_on_full,f1_macro_on_full,num_tokens,nu
 54,5,10,0.128612,0.009649,52,52,10,padaria e confeitaria industrializado,1ce6d833e8,3.8023
 54,6,10,0.128612,0.009649,52,52,10,padaria e confeitaria industrializado,1ce6d833e8,3.8023
 54,7,10,0.128612,0.009649,52,52,10,padaria e confeitaria industrializado,1ce6d833e8,3.8023
-54,8,10,0.111038,0.008476,52,52,10,nozes, castanhas e outras oleaginosas,811266c654,3.8210
+54,8,10,0.111038,0.008476,52,52,10,nozes castanhas e outras oleaginosas,811266c654,3.8210
 54,9,10,0.128612,0.009649,52,52,10,cerveja,1ce6d833e8,3.8023
 54,10,10,0.128612,0.009649,52,52,10,padaria e confeitaria industrializado,1ce6d833e8,3.8023
 54,11,10,0.128612,0.009649,52,52,10,padaria e confeitaria industrializado,1ce6d833e8,3.8023

@@ -7,6 +7,12 @@ import seaborn as sns
 import os
 import glob
 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mticker # Para formatar ticks em log
+import seaborn as sns
+
 def plot_ag_convergence(history_df, title_prefix="", l0_size=None, figsize=(10,8)):
     """
     Plota a evolução das métricas (max, avg, min para Acc e F1) ao longo das gerações do AG.
@@ -132,3 +138,4 @@ def plot_ag_time_stats(optimization_history_df, title_prefix="", l0_size=None, f
 
     print(f"Estatísticas do Tempo por Geração ({title_prefix}):")
     print(optimization_history_df['generation_time_sec'].describe())
+
