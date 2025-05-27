@@ -1,0 +1,19 @@
+{
+    "classifier_config": {
+        "type": "PVBin",
+        "params": {
+            "method": "binary",
+            "query": "binary",
+            "norm": null,
+            "query_norm": null,
+            "ngram_range": [
+                1,
+                2
+            ]
+        }
+    },
+    "train_set_size": 175255,
+    "test_set_size": 75110,
+    "accuracy_on_T": 0.8836107043003595,
+    "f1_macro_on_T": 0.7098230848383682
+}

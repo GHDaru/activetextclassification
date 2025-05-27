@@ -125,3 +125,150 @@ def load_and_prepare_data(
 
     # Retornar os dataframes e os mapeamentos FINAIS
     return P_df.copy(), U_df.copy(), label_to_id, id_to_label, all_possible_labels
+
+# activetextclassification/data_preparation.py
+
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+import os
+import json
+
+from .utils import preprocess_label # Assumindo que preprocess_label está em utils.py
+
+def load_split_and_preprocess_data(
+    file_path,
+    text_column,
+    label_column,
+    min_samples_per_class=2,
+    rare_group_label="_RARE_",
+    test_set_size=0.30,
+    random_state_split=42,
+    output_dir=".", # Diretório para salvar/carregar os splits
+    force_split=False, # Forçar nova divisão mesmo que arquivos existam
+    sheet_name=0
+):
+    """
+    Carrega dados, pré-processa (incluindo agrupamento de classes raras no dataset completo),
+    divide em conjuntos de treino/otimização e teste (estratificado),
+    e opcionalmente salva/carrega esses conjuntos.
+
+    Args:
+        file_path (str): Caminho para o arquivo de dados (CSV ou Excel).
+        text_column (str): Nome da coluna de texto.
+        label_column (str): Nome da coluna de rótulos.
+        min_samples_per_class (int): Mínimo de amostras para uma classe não ser rara.
+        rare_group_label (str): Rótulo para classes raras agrupadas.
+        test_set_size (float): Proporção do dataset a ser usada para o conjunto de teste.
+        random_state_split (int): Semente para a divisão treino/teste.
+        output_dir (str): Diretório para salvar/carregar os arquivos CSV dos splits.
+        force_split (bool): Se True, força a re-divisão mesmo que os arquivos existam.
+        sheet_name (int or str): Nome ou índice da planilha para arquivos Excel.
+
+    Returns:
+        tuple: (df_train_opt, df_test_T, all_possible_labels_original)
+               Retorna (None, None, None) em caso de erro crítico.
+    """
+    print(f"--- Iniciando Carga, Pré-processamento e Divisão de Dados ---")
+    os.makedirs(output_dir, exist_ok=True)
+
+    train_file = os.path.join(output_dir, "df_train_opt.csv")
+    test_file = os.path.join(output_dir, "df_test_T.csv")
+    labels_file = os.path.join(output_dir, "all_possible_labels_original.json")
+
+    if not force_split and os.path.exists(train_file) and os.path.exists(test_file) and os.path.exists(labels_file):
+        print(f"Carregando conjuntos de dados divididos e labels de '{output_dir}'...")
+        try:
+            df_train_opt = pd.read_csv(train_file)
+            df_test_T = pd.read_csv(test_file)
+            with open(labels_file, 'r') as f:
+                all_possible_labels_original = json.load(f)
+            print("Dados carregados com sucesso.")
+            # Garantir tipos corretos após carregar do CSV
+            df_train_opt[text_column] = df_train_opt[text_column].astype(str)
+            df_train_opt[label_column] = df_train_opt[label_column].astype(str)
+            df_test_T[text_column] = df_test_T[text_column].astype(str)
+            df_test_T[label_column] = df_test_T[label_column].astype(str)
+            return df_train_opt, df_test_T, all_possible_labels_original
+        except Exception as e:
+            print(f"Erro ao carregar arquivos divididos: {e}. Prosseguindo com nova divisão.")
+
+    print(f"Processando arquivo original: {file_path}")
+    try:
+        file_ext = os.path.splitext(file_path)[1].lower()
+        if file_ext == '.csv':
+            df_original = pd.read_csv(file_path)
+        elif file_ext in ['.xlsx', '.xls']:
+            df_original = pd.read_excel(file_path, sheet_name=sheet_name)
+        else:
+            raise ValueError(f"Extensão de arquivo não suportada: {file_ext}.")
+
+        if text_column not in df_original.columns or label_column not in df_original.columns:
+            raise ValueError("Colunas de texto ou rótulo não encontradas no arquivo.")
+
+        df_original.dropna(subset=[text_column, label_column], inplace=True)
+        df_original[text_column] = df_original[text_column].astype(str) # Garantir texto como string
+        df_original[label_column] = df_original[label_column].apply(preprocess_label).astype(str)
+
+        if df_original.empty:
+            raise ValueError("Dataset vazio após remover NaNs ou pré-processar labels.")
+
+        # Agrupar classes raras no dataset completo ANTES da divisão
+        if min_samples_per_class > 1:
+            print(f"Agrupando classes raras (threshold: {min_samples_per_class})...")
+            label_counts = df_original[label_column].value_counts()
+            rare_labels = label_counts[label_counts < min_samples_per_class].index.tolist()
+            if rare_labels:
+                df_original[label_column] = df_original[label_column].replace(rare_labels, rare_group_label)
+                print(f"  {len(rare_labels)} classes raras agrupadas em '{rare_group_label}'.")
+        
+        all_possible_labels_original = sorted(list(df_original[label_column].unique()))
+        print(f"Total de classes únicas (após agrupamento, se houver): {len(all_possible_labels_original)}")
+
+
+        # Verificar se ainda há classes com menos de 2 amostras após o agrupamento de raros
+        # Isso é importante para a estratificação
+        final_label_counts_for_split = df_original[label_column].value_counts()
+        labels_with_one_sample = final_label_counts_for_split[final_label_counts_for_split < 2].index.tolist()
+
+        if labels_with_one_sample:
+            print(f"AVISO: As seguintes classes têm apenas 1 amostra e serão removidas ANTES da divisão para permitir estratificação: {labels_with_one_sample}")
+            df_original = df_original[~df_original[label_column].isin(labels_with_one_sample)]
+            # Recalcular all_possible_labels_original se classes foram removidas
+            all_possible_labels_original = sorted(list(df_original[label_column].unique()))
+            print(f"Total de classes únicas (após remover classes com 1 amostra): {len(all_possible_labels_original)}")
+            if df_original.empty:
+                 raise ValueError("Dataset ficou vazio após remover classes com apenas 1 amostra.")
+
+
+        if len(df_original) < 2: # Checar novamente após possível remoção
+            raise ValueError("Dataset muito pequeno para dividir após pré-processamento.")
+
+        print(f"Dividindo em treino ({100*(1-test_set_size):.0f}%) e teste ({100*test_set_size:.0f}%)...")
+        df_train_opt, df_test_T = train_test_split(
+            df_original,
+            test_size=test_set_size,
+            random_state=random_state_split,
+            stratify=df_original[label_column] # Estratificar pelos labels processados
+        )
+        
+        df_train_opt = df_train_opt.reset_index(drop=True)
+        df_test_T = df_test_T.reset_index(drop=True)
+
+        print(f"  Tamanho df_train_opt: {len(df_train_opt)}")
+        print(f"  Tamanho df_test_T: {len(df_test_T)}")
+
+        # Salvar os conjuntos divididos
+        df_train_opt.to_csv(train_file, index=False)
+        df_test_T.to_csv(test_file, index=False)
+        with open(labels_file, 'w') as f:
+            json.dump(all_possible_labels_original, f)
+        print(f"Conjuntos divididos e labels salvos em '{output_dir}'.")
+        
+        return df_train_opt, df_test_T, all_possible_labels_original
+
+    except Exception as e:
+        print(f"ERRO CRÍTICO em load_split_and_preprocess_data: {e}")
+        import traceback
+        traceback.print_exc()
+        return None, None, None # Retornar None em caso de erro
