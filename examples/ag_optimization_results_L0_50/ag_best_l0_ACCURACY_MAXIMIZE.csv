@@ -1,0 +1,51 @@
+﻿nm_item,nm_product,metric_value_on_eval_set,metric_type,optimization_goal
+MAC C OVOS AVE MARIA STA AMALIA 500G,macarrao,0.33212621488483557,accuracy_on_full,maximize
+NECTAR CAMP UVA 1L,suco pronto,0.33212621488483557,accuracy_on_full,maximize
+CREME DENTAL ORAL B 3DWHITE BRI FRES 70G,creme dental,0.33212621488483557,accuracy_on_full,maximize
+BALA GELAT FINI TUBES MORANGO 15G,bala,0.33212621488483557,accuracy_on_full,maximize
+MANTEIGA PRESIDENT 380G-PT C/SAL,manteiga,0.33212621488483557,accuracy_on_full,maximize
+PAPEL HIG NEVE FT PREM COMFORT 20M C/6,papel higienico,0.33212621488483557,accuracy_on_full,maximize
+ARROZ BCO SABOROSO T1 5KG,arroz,0.33212621488483557,accuracy_on_full,maximize
+SAB BARRA YPE GLIC PERF ALOEVERA C5 900G,sabonete,0.33212621488483557,accuracy_on_full,maximize
+MINI BOLO PANQUINHO CHOC RECH CHOC 35G,padaria e confeitaria industrializado,0.33212621488483557,accuracy_on_full,maximize
+"IOG LIQ VIGOR 180G, MOR",iogurte,0.33212621488483557,accuracy_on_full,maximize
+MOLHO HEMMER 3X1 310g,outro molho,0.33212621488483557,accuracy_on_full,maximize
+"BISC MARILAN AMANT 280G, CHOC, .",biscoito,0.33212621488483557,accuracy_on_full,maximize
+CAFE CAPS 3C ES VIBRANTE 10 UN 8G,cafe,0.33212621488483557,accuracy_on_full,maximize
+SABONETE LUX ESSENCIAS 120G  BROMELIA,sabonete,0.33212621488483557,accuracy_on_full,maximize
+CHA INFUSAO UNI,cha por infusao,0.33212621488483557,accuracy_on_full,maximize
+VHO TTO CHI MANTO BL PINO NOIR 750ML,vinho importado,0.33212621488483557,accuracy_on_full,maximize
+OVO GD BC C12 12UN,ovo,0.33212621488483557,accuracy_on_full,maximize
+GOIABADA PREDILECTA         PT 600G,goiabada,0.33212621488483557,accuracy_on_full,maximize
+CAFE 3 CORACOES 500G ESTRADA REAL PREMIUM,cafe,0.33212621488483557,accuracy_on_full,maximize
+CORACAO PALE BOV BEST BEEF ANG(BIF)(P)KG,carne bovina,0.33212621488483557,accuracy_on_full,maximize
+CERVEJA TIGER PURO MALTE 350ML-LT CRYSTAL,cerveja,0.33212621488483557,accuracy_on_full,maximize
+QJ MUSS PALITO INF ATIL 304GR,queijo,0.33212621488483557,accuracy_on_full,maximize
+AMENDOIM DORI PETTIZ CEBOL/SALSAPE 150GR,amendoim,0.33212621488483557,accuracy_on_full,maximize
+"SALG BATATA STAX 156G, SALSA/ONION",aperitivo,0.33212621488483557,accuracy_on_full,maximize
+SACO LIXO D-ROLL RESIT 30L 30UN PTO,saco de lixo,0.33212621488483557,accuracy_on_full,maximize
+PAO SOVADO PANCO 500g,padaria e confeitaria industrializado,0.33212621488483557,accuracy_on_full,maximize
+QA DESINF QUALITA FLORAL 2L,desinfetante,0.33212621488483557,accuracy_on_full,maximize
+LAVA ROUPA PO OMO HIGIEN SANIT CXT 800G,lava roupas,0.33212621488483557,accuracy_on_full,maximize
+SH PANTENE RESTAURACAO 400ML,shampoo,0.33212621488483557,accuracy_on_full,maximize
+CALDO MAGGI 114G  GALINHA,caldo industrializado,0.33212621488483557,accuracy_on_full,maximize
+ESC DENT ORAL-B PRO,escova de dentes,0.33212621488483557,accuracy_on_full,maximize
+SACHE CAO DCHOW FRANGO MOLHO RP 15X100,alimento pet,0.33212621488483557,accuracy_on_full,maximize
+BOMBOM DADINHO SORTIDO EXCLUSIVO 185G,bombom,0.33212621488483557,accuracy_on_full,maximize
+GELATINA DR OETKER 20G MARACUJA,gelatina,0.33212621488483557,accuracy_on_full,maximize
+CR DENT SORRISO BRANCO EXTREMO 120G,creme dental,0.33212621488483557,accuracy_on_full,maximize
+FILEZINHO PEITO FGO SADIA BAND 1KG,carne de ave,0.33212621488483557,accuracy_on_full,maximize
+AGUA MIN MINALBA C/GAS LT 310ML,agua,0.33212621488483557,accuracy_on_full,maximize
+SHA SEDA PUREZA REFRESCANTE 325ML,shampoo,0.33212621488483557,accuracy_on_full,maximize
+QA ROLINHOS DE WAFER CROCK 100G,biscoito,0.33212621488483557,accuracy_on_full,maximize
+CHOC HERSHEYS 82G TAB EXTRA CREMOSO,chocolate,0.33212621488483557,accuracy_on_full,maximize
+LIMP DIL AJAX NATURALS LAVANDA 1L,multiuso,0.33212621488483557,accuracy_on_full,maximize
+"SUCO DEL VALLE NUTRI 200ML, UVA, .",suco pronto,0.33212621488483557,accuracy_on_full,maximize
+ISOTONICO POWERADE MOUNTAIN BLAST 500ML,isotonico,0.33212621488483557,accuracy_on_full,maximize
+BISC RICHESTER DUPLO RECH ESCURETO 80G,biscoito,0.33212621488483557,accuracy_on_full,maximize
+REFR FANTA GUARANA ZERO PET 2L,refrigerante,0.33212621488483557,accuracy_on_full,maximize
+LIMPADOR PERFUM ATIV NORDESTA FLORAL,multiuso,0.33212621488483557,accuracy_on_full,maximize
+REFRESCO PO TEEN MAIS 15G MORANGO,preparo para suco,0.33212621488483557,accuracy_on_full,maximize
+DESOD ROLL ON GIOVANNA BABY ROSA 50ML,desodorante,0.33212621488483557,accuracy_on_full,maximize
+ACHOC PIRAKIDS 200ml,achocolatado,0.33212621488483557,accuracy_on_full,maximize
+G PARACET CODEIN 500 30MG C/24 PSICO EMS,outro farma,0.33212621488483557,accuracy_on_full,maximize

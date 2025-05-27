@@ -1,0 +1,101 @@
+﻿nm_item,nm_product,metric_value_on_eval_set,metric_type,optimization_goal
+GOMA MASCAR TRIDENT MAX BLUEBERRY 16 5G,goma de mascar,0.38764478764478766,accuracy_on_full,maximize
+LIMP BANHEIRO VEJA SQUEEZE L500 P400ML,multiuso,0.38764478764478766,accuracy_on_full,maximize
+REFRIG COCA S/ ACUC 600ML-PET,refrigerante,0.38764478764478766,accuracy_on_full,maximize
+LINGUICA CALABRESA FRIMESA 2 KG,linguica,0.38764478764478766,accuracy_on_full,maximize
+SH.PALMOLIVE MEN ANTICASPA 350ML ANTIQUEDA,shampoo,0.38764478764478766,accuracy_on_full,maximize
+MASSA GALO TRICOLORI PARAFUSO 500G,macarrao,0.38764478764478766,accuracy_on_full,maximize
+"TQ CER BAR CJA,NOZ,DCE LT,CH C3 66G",barra alimentar,0.38764478764478766,accuracy_on_full,maximize
+"SORV PARDAL ORIG 1,5L ACAI/BAN",sorvete,0.38764478764478766,accuracy_on_full,maximize
+ALIM GATO WHISKAS 900G DRY AD CARNE,alimento pet,0.38764478764478766,accuracy_on_full,maximize
+AGUA MIN NAT MINALBA 510ML,agua,0.38764478764478766,accuracy_on_full,maximize
+REFR PO TANG 25G-EV GOIABA,preparo para suco,0.38764478764478766,accuracy_on_full,maximize
+MANTEIGA MOCOCA C/SAL LATA 200g,manteiga,0.38764478764478766,accuracy_on_full,maximize
+MOLHO ARRIFANA ARABE 150ML,outro molho,0.38764478764478766,accuracy_on_full,maximize
+CERVEJA RED STRIPE 330ML,cerveja,0.38764478764478766,accuracy_on_full,maximize
+CAFE CAPS 3 CORACOES EXPR CAPPUCINO CLAS 110g,cafe,0.38764478764478766,accuracy_on_full,maximize
+SABONETE FARNESE PROTEINAS DO LEITE,sabonete,0.38764478764478766,accuracy_on_full,maximize
+REF COCA COLA PROMO 6X600ML,refrigerante,0.38764478764478766,accuracy_on_full,maximize
+GELATINA DR.OETKER CEREJA 20G,gelatina,0.38764478764478766,accuracy_on_full,maximize
+CERV IPA PATAGONIA SLEEK LT 350ML,cerveja,0.38764478764478766,accuracy_on_full,maximize
+MAC INST GAL CAIP NISSIN LAMEN 85G L6P5,macarrao,0.38764478764478766,accuracy_on_full,maximize
+AVEIA OATBRAN ORG QUAKER 150G,aveia e seus derivados,0.38764478764478766,accuracy_on_full,maximize
+PIZZA LANY C/5 390G FGO,pizza congelada,0.38764478764478766,accuracy_on_full,maximize
+CHO NESTL ALP CHOC DARK MILK 41 85G,chocolate,0.38764478764478766,accuracy_on_full,maximize
+SAB FLOR DE YPE SUAVE BR 85G FLOR LJA/DAMASC,sabonete,0.38764478764478766,accuracy_on_full,maximize
+DESINF PINHO BRIL L500ML P450ML LAVANDA,desinfetante,0.38764478764478766,accuracy_on_full,maximize
+"PAPEL ALUMINIO WYDA 0,30X7,5",folha de aluminio,0.38764478764478766,accuracy_on_full,maximize
+CHOC FRAN LINDT EXCELLEN 100G- 85  CACAU,chocolate,0.38764478764478766,accuracy_on_full,maximize
+IOG BATAVO NATURAL DESNATADO 170G,iogurte,0.38764478764478766,accuracy_on_full,maximize
+QUEIJO MUC ITALAC INT,queijo,0.38764478764478766,accuracy_on_full,maximize
+SALPET AYMOR  TRADICIONAL 100G,biscoito,0.38764478764478766,accuracy_on_full,maximize
+DESOD AERO NIVEA MEN SENS PROTECT 150ML,desodorante,0.38764478764478766,accuracy_on_full,maximize
+ASSADO DE TIRA MATURATTA CONG KG,carne bovina,0.38764478764478766,accuracy_on_full,maximize
+REFRESCO PO MANGA FRES,preparo para suco,0.38764478764478766,accuracy_on_full,maximize
+CAFE SOL PIMPINELA REFIL 50G,cafe,0.38764478764478766,accuracy_on_full,maximize
+AMACIANTE CONC YPE 500ML  BLUE,amaciante,0.38764478764478766,accuracy_on_full,maximize
+NECTAR LARANJA DAFRUTA 200ML,suco pronto,0.38764478764478766,accuracy_on_full,maximize
+REQUEIJAO CATUPIRY CREM.TRAD.   CP 500GR,requeijao,0.38764478764478766,accuracy_on_full,maximize
+"LAVA ROUPA PO OMO CX 2.2Kg, PROT ANT",lava roupas,0.38764478764478766,accuracy_on_full,maximize
+SABAO PO BRILHANTE CUIDAD TOTA,lava roupas,0.38764478764478766,accuracy_on_full,maximize
+PAO TORT PULLMAN 330G FIT RAP10,padaria e confeitaria industrializado,0.38764478764478766,accuracy_on_full,maximize
+COPO KREA VIDRO AVULSO 360ML,copo,0.38764478764478766,accuracy_on_full,maximize
+LING CALABRESA DEF PERDIGAO kg,linguica,0.38764478764478766,accuracy_on_full,maximize
+ABS SEMPRE LIVRE ADAPT SV C/16 LV PG-,absorvente,0.38764478764478766,accuracy_on_full,maximize
+CHOC BARRA LACTA 80G AO LEITE,chocolate,0.38764478764478766,accuracy_on_full,maximize
+SOPA VONO 17G CREMOSA CALDO VDE,preparo para sopa,0.38764478764478766,accuracy_on_full,maximize
+SALG YOKITOS CEBOLA 54G,aperitivo,0.38764478764478766,accuracy_on_full,maximize
+CR DENTAL PREVENT ANTI PLACA 90G,creme dental,0.38764478764478766,accuracy_on_full,maximize
+"PIPOCA CALDO BOM MICR 100G, MANTEIGA, .",pipoca para microondas,0.38764478764478766,accuracy_on_full,maximize
+CHA PRENDA MISTO MORANGO        CX  20GR,cha por infusao,0.38764478764478766,accuracy_on_full,maximize
+GIN LEMON TORQUAY 275ML,gin,0.38764478764478766,accuracy_on_full,maximize
+LABIRIN 8 MG C/30 COMPRIMIDOS APSEN,outro farma,0.38764478764478766,accuracy_on_full,maximize
+GRANULAD COLORIDO CROCANTE70G,cobertura pronta,0.38764478764478766,accuracy_on_full,maximize
+CAFE PO NOVA SUISSA 500G-PC EX-FORTE,cafe,0.38764478764478766,accuracy_on_full,maximize
+CEREAL SUC ORIGINAL KELLOGG 110G,cereal matinal,0.38764478764478766,accuracy_on_full,maximize
+BATATA PALHA CRAC TRAD 100G,vegetal em palha,0.38764478764478766,accuracy_on_full,maximize
+C D COLGATE NATURAL EXT 90G DEF REFORCA,creme dental,0.38764478764478766,accuracy_on_full,maximize
+CR D SORRISO KIDS MELANCIA 50G,creme dental,0.38764478764478766,accuracy_on_full,maximize
+PETIT SUISSE BATAVINHO MORANGO BJ 320G,iogurte,0.38764478764478766,accuracy_on_full,maximize
+MACA TURMA DA MONICA 1KG,maca,0.38764478764478766,accuracy_on_full,maximize
+TONICA SCHWEPPES LT 350ml,agua tonica,0.38764478764478766,accuracy_on_full,maximize
+SOBRECOXA FGO CONG SEARA ZIP 1KG,carne de ave,0.38764478764478766,accuracy_on_full,maximize
+BISC RECH VIT TRELOSO PC 37 BAUNILHA,biscoito,0.38764478764478766,accuracy_on_full,maximize
+DESOD AER GARNIER BIO PROTEC 5 FEM 150ML,desodorante,0.38764478764478766,accuracy_on_full,maximize
+"CALDO PO SAZON 32,5G-CX BACON",caldo industrializado,0.38764478764478766,accuracy_on_full,maximize
+TOALHA UMED HUGGIES CLASSIC C48 L4P3,lenco umedecido,0.38764478764478766,accuracy_on_full,maximize
+"BATATA CONG CRINK BEM BRASIL 1,05KG",batata congelada,0.38764478764478766,accuracy_on_full,maximize
+PAP HIG F.D NEVE 30M C/4 NEUT,papel higienico,0.38764478764478766,accuracy_on_full,maximize
+MISTURA LEITE COND MOCA CX 395G,leite condensado,0.38764478764478766,accuracy_on_full,maximize
+BISC FORTALEZA MARIA CHOC 400G,biscoito,0.38764478764478766,accuracy_on_full,maximize
+"PAO FORMA PANCO 380G 100 INT, CAST BRAS",padaria e confeitaria industrializado,0.38764478764478766,accuracy_on_full,maximize
+AMAC.ROUP.CONC.DOWNY 450ML LIBERDADE,amaciante,0.38764478764478766,accuracy_on_full,maximize
+ESPONJA BANHO PONJITA ANATOMICA,esponja de banho,0.38764478764478766,accuracy_on_full,maximize
+BISC MARILAN TEENS 80G CHOC,biscoito,0.38764478764478766,accuracy_on_full,maximize
+VITA E 400MG C/30 CAPSULAS ACHE,outro farma,0.38764478764478766,accuracy_on_full,maximize
+ALFACE MIMOSA MENDONCA UN,alface,0.38764478764478766,accuracy_on_full,maximize
+BISCOITO CHOCOLATE VIEIRA PRINCESA 200G,biscoito,0.38764478764478766,accuracy_on_full,maximize
+COOKIE INTDIET DAMAS  150G,biscoito,0.38764478764478766,accuracy_on_full,maximize
+IOG BULGARO VIGOR VIV 130G BLUEB BAUN,iogurte,0.38764478764478766,accuracy_on_full,maximize
+"CR DENT SORRISO 180G, DENTES BC, .",creme dental,0.38764478764478766,accuracy_on_full,maximize
+SAB LIQ LUX MAOS FLOR CAJUEIR 300ML,sabonete,0.38764478764478766,accuracy_on_full,maximize
+LINGUICA PERNIL GRANEL MF KG,linguica,0.38764478764478766,accuracy_on_full,maximize
+ALIM CAES ADULTOS 12 CARNE PEDIGREE 900G,alimento pet,0.38764478764478766,accuracy_on_full,maximize
+FJAO PTO SAKURA T1 1KG,feijao,0.38764478764478766,accuracy_on_full,maximize
+FRALDINHA PECA VACUO BOV RESERV KG,carne bovina,0.38764478764478766,accuracy_on_full,maximize
+VH TTO QUINTA MORGADO 750ML SECO BRA,vinho importado,0.38764478764478766,accuracy_on_full,maximize
+QJ MUCARELA NILZA KG PED,queijo,0.38764478764478766,accuracy_on_full,maximize
+FEIJAO PRETO T1 C BELO 1KG,feijao,0.38764478764478766,accuracy_on_full,maximize
+MAIONESE HELLMANNS VERDE SQUEEZE 335G,maionese,0.38764478764478766,accuracy_on_full,maximize
+ESC DENT KESS PRO EXTRA MACIA C/2,escova de dentes,0.38764478764478766,accuracy_on_full,maximize
+NEULEPTIL 4  GOTAS  ADU C/20ML PSICO SAN,outro farma,0.38764478764478766,accuracy_on_full,maximize
+PAO FORMA DO FORNO INT WICKBOLD 500G,padaria e confeitaria industrializado,0.38764478764478766,accuracy_on_full,maximize
+"BATATA YOKI 45G, ONDULADA CEB/SALS, .",aperitivo,0.38764478764478766,accuracy_on_full,maximize
+OVO BRANCO GRANDE HAPPY EGGS C 10,ovo,0.38764478764478766,accuracy_on_full,maximize
+LEITE UHT PIRACANJUBA DESN FIB C/TAMP 1l,leite,0.38764478764478766,accuracy_on_full,maximize
+"SUCO MEMBERS MARK UVA 1,5L",suco pronto,0.38764478764478766,accuracy_on_full,maximize
+BISC RECH BAUDUCCO MORANGO 140G,biscoito,0.38764478764478766,accuracy_on_full,maximize
+BOLO DE CHOCOLATE PANCO 300G,padaria e confeitaria industrializado,0.38764478764478766,accuracy_on_full,maximize
+TEMPERO SAZON 60GR SALADA,tempero pronto,0.38764478764478766,accuracy_on_full,maximize
+PEIXE PIRAMUTABA KG POSTA CONG,peixe,0.38764478764478766,accuracy_on_full,maximize
+MOLHO TOM FUGINI 340G SC ORG TRAD,molho de tomate,0.38764478764478766,accuracy_on_full,maximize

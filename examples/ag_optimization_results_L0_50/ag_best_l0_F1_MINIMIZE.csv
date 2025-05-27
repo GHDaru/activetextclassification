@@ -1,0 +1,51 @@
+﻿nm_item,nm_product,metric_value_on_eval_set,metric_type,optimization_goal
+CHICORIA SANTO EXPEDITO         AV   1UN,chicoria,0.0037387870923993624,f1_macro_on_full,minimize
+IOG ACTIVIA CAFE MANHA QUIN FV,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+CHAMBINHO MORANGO 320G,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+DVF CAJU PET 1L,suco pronto,0.0037387870923993624,f1_macro_on_full,minimize
+SUCO CASA MADEIRA 250ML UVA,suco pronto,0.0037387870923993624,f1_macro_on_full,minimize
+CAPPUCCINO CLASSICO MEDIO,cafe,0.0037387870923993624,f1_macro_on_full,minimize
+REGULADOR PH BEL                PE   1KG,equipamento de limpeza piscina,0.0037387870923993624,f1_macro_on_full,minimize
+PAPAS FRITAS CARREFOUR ORIG 40G,batata congelada,0.0037387870923993624,f1_macro_on_full,minimize
+SUCO PALMEIRON UVA 500ML,suco pronto,0.0037387870923993624,f1_macro_on_full,minimize
+IOG BATAVO GREGO ZERO MORANGO 100G,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+FDA HUG SUPREME CR MEGA G  C/32,fralda,0.0037387870923993624,f1_macro_on_full,minimize
+TAFFMAN E YAKULT 110ML,vitaminico,0.0037387870923993624,f1_macro_on_full,minimize
+PAD MINEIRINHO SAVEG 150G,padaria e confeitaria industrializado,0.0037387870923993624,f1_macro_on_full,minimize
+BISCOITO JASMINE 75G INTEGRAL CACAU/CEREAIS,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+SAB PALM SUAVE OLEO NUTRITIVO,sabonete,0.0037387870923993624,f1_macro_on_full,minimize
+BR CEREAL RITTER 80G-PC LV4/PG3 AVELA E AVEIA,barra alimentar,0.0037387870923993624,f1_macro_on_full,minimize
+ASEPXIA AGUA MICELAR CARVAO 200ML GENOMA,outro farma,0.0037387870923993624,f1_macro_on_full,minimize
+POST-IT 653 TROPICA COLOR 1UN,outro papelaria,0.0037387870923993624,f1_macro_on_full,minimize
+BISC.VITARELLA 350G CROCKS PAO ASSADO,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+CR QUARK BATAVO NUV GOIABA 100g,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+KIT COM 3 FACAS PEELER 4 PECAS,talher,0.0037387870923993624,f1_macro_on_full,minimize
+BISC C CRACKER PIRAQUE INT 215G,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+IOG PENSE ZERO BATIDO BATAVO 1.150G,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+IOG GREGO VIGOR 100G FRUT AMARELAS,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+NECTAR PESSEGO MARATA TP 200ML,suco pronto,0.0037387870923993624,f1_macro_on_full,minimize
+BISC AGUA SAL PILAR 400g,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+GOIABA VRM KG,goiaba,0.0037387870923993624,f1_macro_on_full,minimize
+ODORIZ BOM AR C.SPRAY C.TALCO REF 12ML,automotivo,0.0037387870923993624,f1_macro_on_full,minimize
+DESINF GIRANDO SOL 3L EUCALIPTO,desinfetante,0.0037387870923993624,f1_macro_on_full,minimize
+PACK CLUB INT 288G,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+IOG INT BETANIA KIDS 100G MORANGO,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+PATE FGO TRAD 180G  180G,pate,0.0037387870923993624,f1_macro_on_full,minimize
+HIPOGLOS POMADA C/135GR JOHNSON,outro farma,0.0037387870923993624,f1_macro_on_full,minimize
+CHOCOLATE TEDDY LINDT 10G,chocolate,0.0037387870923993624,f1_macro_on_full,minimize
+SAB LIQ PALMOLIVE SUAV DELI JASMIM 250ML,sabonete,0.0037387870923993624,f1_macro_on_full,minimize
+CEN BETE FACIL H 150G,vegetal higienizado e processado,0.0037387870923993624,f1_macro_on_full,minimize
+BISC LEITE MALT PIRAQUE 132G COCO,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+BONECO DE NATAL PERNA COMPRIDA,boneco,0.0037387870923993624,f1_macro_on_full,minimize
+FDA HUGGIES ROUPINHA HIPER G C/60,fralda,0.0037387870923993624,f1_macro_on_full,minimize
+SUCO JUVER PERA E ABACAXI 2L,suco pronto,0.0037387870923993624,f1_macro_on_full,minimize
+"LEITE XANDO 1L GF, Z/LACT A",leite,0.0037387870923993624,f1_macro_on_full,minimize
+CREM QUARK MORANGO BATAVO 100G,iogurte,0.0037387870923993624,f1_macro_on_full,minimize
+LEITE L VIDA PREM BX LACT TIROL 1L,leite,0.0037387870923993624,f1_macro_on_full,minimize
+BISC ISABELA MAIZENA            PCT 350G,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+BISC MARILAN  GUA E SAL FN 140G,biscoito,0.0037387870923993624,f1_macro_on_full,minimize
+SAB BARRA HOMEM 85G,sabonete,0.0037387870923993624,f1_macro_on_full,minimize
+SAB BARRA PALMOLIVE OLIVA 85G,sabonete,0.0037387870923993624,f1_macro_on_full,minimize
+ROUPA INT MASC TENA  P M  C8,fralda adulto,0.0037387870923993624,f1_macro_on_full,minimize
+SUCO MISTO DO BEM TODO DIA MANGA 200ML,suco pronto,0.0037387870923993624,f1_macro_on_full,minimize
+DESINF PINHO SOL LIMAO 1L,desinfetante,0.0037387870923993624,f1_macro_on_full,minimize
