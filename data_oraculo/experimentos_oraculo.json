@@ -1,0 +1,95 @@
+
+[
+  {
+    "model_name": "gemini-1.5-flash-latest",
+    "temperature": 0.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-1.5-flash-latest",
+    "temperature": 0.1,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-1.5-flash-latest",
+    "temperature": 0.2,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-1.5-flash-latest",
+    "temperature": 0.5,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-1.5-flash-latest",
+    "temperature": 1.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },  
+  {
+    "model_name": "gemini-2.5-pro-preview-05-06",
+
+    "temperature": 0.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-05-06",
+    "temperature": 0.1,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-05-06",
+    "temperature": 0.2,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-05-06",
+    "temperature": 0.5,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-05-06",
+    "temperature": 1.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-flash-preview-05-20",
+    "temperature": 0.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-flash-preview-05-20",
+    "temperature": 0.1,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "ggemini-2.5-flash-preview-05-20",
+    "temperature": 0.2,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-flash-preview-05-20",
+    "temperature": 0.5,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  },
+  {
+    "model_name": "gemini-2.5-flash-preview-05-20",
+    "temperature": 1.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52"
+  }
+]
+

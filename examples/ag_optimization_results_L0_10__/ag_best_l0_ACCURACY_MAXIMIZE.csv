@@ -1,0 +1,11 @@
+﻿nm_item,nm_product,metric_value_on_eval_set,metric_type,optimization_goal
+CHOC. NESTLE CLASSIC DIET       TB  25GR,chocolate,0.19448808414325655,accuracy_on_full,maximize
+CERV EISENBAHN PALE 350ML LT,cerveja,0.19448808414325655,accuracy_on_full,maximize
+SUCO NECTAR BELA ISCHIA UVA MACA 200ML,suco pronto,0.19448808414325655,accuracy_on_full,maximize
+IOG FRIMESA CP 165G NATURAL,iogurte,0.19448808414325655,accuracy_on_full,maximize
+"MAC GALO SEMOLA 500G, PARAFUSO, .",macarrao,0.19448808414325655,accuracy_on_full,maximize
+BISC COOKIES TODDY BAUN/GOTAS CHOC 150G,biscoito,0.19448808414325655,accuracy_on_full,maximize
+DESOD AERO DOVE MEN CARE CUID TOT 150ML,desodorante,0.19448808414325655,accuracy_on_full,maximize
+LAVA ROUPA PO TIXAN 800G  PRIMAVERA,lava roupas,0.19448808414325655,accuracy_on_full,maximize
+PAO FORMA INT WICKBOLD 450G,padaria e confeitaria industrializado,0.19448808414325655,accuracy_on_full,maximize
+G FENOBARBITAL 100MG C/30CP PSICO UQ,outro farma,0.19448808414325655,accuracy_on_full,maximize

@@ -1,0 +1,5 @@
+generation,individual_id,l0_size,accuracy_on_full,f1_macro_on_full,num_tokens,num_distinct_tokens,num_classes_in_l0,most_frequent_class_in_l0,l0_indices_hash,fitness_calc_time_sec
+1,0,250,0.351724,0.071056,1376,947,116,biscoito,7899b2ab9a,4.3324
+1,1,250,0.351165,0.065844,1382,939,114,biscoito,51a1e47d0d,4.1222
+2,0,250,0.351724,0.071056,1376,947,116,biscoito,7899b2ab9a,4.3324
+2,1,250,0.351724,0.071056,1376,947,116,biscoito,7899b2ab9a,4.3324
