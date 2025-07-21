@@ -18,7 +18,7 @@ from .baseline import calculate_baseline_metrics
 from .cold_start import select_initial_batch
 from .models import get_model, BaseTextClassifier, BaseFeatureClassifier
 from .selection import select_query_batch
-from .oraculo import BaseOracle, get_oracle # <- ADICIONAR
+from .oracle import BaseOracle, get_oracle # <- ADICIONAR
 
 
 # Imports de ML/Avaliação

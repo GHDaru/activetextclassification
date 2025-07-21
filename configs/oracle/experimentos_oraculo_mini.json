@@ -1,0 +1,58 @@
+[
+  {
+    "model_name": "gemma3",
+    "temperature": 0.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  },
+  {
+    "model_name": "qwen2.5",
+    "temperature": 0.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  },
+  {
+    "model_name": "gemini-1.5-flash-latest",
+    "temperature": 0.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "temperature": 0.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  },
+    {
+    "model_name": "gemma3",
+    "temperature": 1.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  },
+  {
+    "model_name": "qwen2.5",
+    "temperature": 1.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  },
+  {
+    "model_name": "gemini-1.5-flash-latest",
+    "temperature": 1.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "temperature": 1.0,
+    "prompt_version_key": "v1",
+    "target_run_id": "DRI_L0size10_Nc10_Seed52",
+    "batch_size": 10
+  }
+]
