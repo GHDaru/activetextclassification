@@ -3,6 +3,7 @@ import pandas as pd
 import os
 import json
 import re
+import traceback
 import unidecode
 from datetime import datetime
 import numpy as np
@@ -194,11 +195,6 @@ def load_and_flatten_experiment_history(history_log_path="history_log.jsonl"):
     return history_plot_df
 # --- FIM NOVA FUNÇÃO ---
 
-# Em activetextclassification/utils.py
-
-import numpy as np
-import pandas as pd
-# ... (outros imports e funções: preprocess_label, append_experiment_result_to_jsonl, load_and_flatten_experiment_history) ...
 
 def calculate_lce(l_sizes, performance_scores, baseline_performance):
     """
