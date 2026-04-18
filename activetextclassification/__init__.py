@@ -33,7 +33,15 @@ from .oracle import get_oracle, BaseOracle, SimulatedOracle
 from .config import load_experiments_config, validate_experiment_config
 from .utils import load_and_flatten_experiment_history, calculate_lce
 
-__version__ = "0.0.1"
+try:
+    from importlib.metadata import version, PackageNotFoundError
+    try:
+        __version__ = version("activetextclassification")
+    except PackageNotFoundError:
+        __version__ = "0.0.1"  # fallback durante desenvolvimento
+except ImportError:
+    __version__ = "0.0.1"  # Python < 3.8 fallback
+
 __author__ = "Gilsiley Henrique Darú"
 
 __all__ = [
