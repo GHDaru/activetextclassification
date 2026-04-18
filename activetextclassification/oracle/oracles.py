@@ -8,7 +8,11 @@ from abc import ABC, abstractmethod
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 import os
 
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    def load_dotenv(*args, **kwargs): pass  # type: ignore
 from unidecode import unidecode
 
 # Importações com tratamento de erro

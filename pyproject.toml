@@ -6,37 +6,51 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "activetextclassification"
-version = "0.0.1"  # Versão inicial
+version = "0.0.1"
 authors = [
-    { name="Gilsiley Henrique Darú", email="ghdaru@gmail.com" }, 
+    { name="Gilsiley Henrique Darú", email="ghdaru@gmail.com" },
 ]
-description = "Biblioteca para classificação de texto com aprendizado ativo." # Descrição curta
-readme = "README.md" # Opcional, se você criar um README
-requires-python = ">=3.8" # Versão mínima do Python que você suporta
+description = "Biblioteca para classificação de texto com aprendizado ativo."
+readme = "README.md"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License", # Escolha sua licença ou remova
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Science/Research",
 ]
-# --- Dependências da sua biblioteca ---
-# Liste aqui os pacotes que o SEU CÓDIGO importa
 dependencies = [
     "numpy",
     "pandas",
     "scikit-learn",
+    "scikit-learn-extra",
     "scipy",
     "unidecode",
     "matplotlib",
     "seaborn",
-    "tqdm"
-    # Adicione outras dependências diretas do seu código .py
-    # Ex: "scikit-learn-extra" se usado dentro da lib
+    "tqdm",
 ]
 
+[project.optional-dependencies]
+llm = [
+    "openai",
+    "google-generativeai",
+    "ollama",
+    "anthropic",
+    "python-dotenv",
+]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "isort",
+    "flake8",
+]
 
-[tool.setuptools]
-packages = ["activetextclassification"]
+[tool.setuptools.packages.find]
+include = ["activetextclassification*"]
 
 [project.urls]
-"Homepage" = "https://github.com/seu_usuario/activetextclassification" # Opcional
-"Bug Tracker" = "https://github.com/seu_usuario/activetextclassification/issues" # Opcional
+"Homepage" = "https://github.com/GHDaru/activetextclassification"
+"Bug Tracker" = "https://github.com/GHDaru/activetextclassification/issues"

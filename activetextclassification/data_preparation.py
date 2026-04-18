@@ -3,7 +3,8 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-import os # Para verificar extensão do arquivo
+import os
+import json
 
 # Importar função utilitária do mesmo pacote
 from .utils import preprocess_label
@@ -125,16 +126,6 @@ def load_and_prepare_data(
 
     # Retornar os dataframes e os mapeamentos FINAIS
     return P_df.copy(), U_df.copy(), label_to_id, id_to_label, all_possible_labels
-
-# activetextclassification/data_preparation.py
-
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-import os
-import json
-
-from .utils import preprocess_label # Assumindo que preprocess_label está em utils.py
 
 def load_split_and_preprocess_data(
     file_path,
