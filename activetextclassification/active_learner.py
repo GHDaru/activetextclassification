@@ -6,7 +6,7 @@ import time
 import os
 import json # Para log/debug talvez
 import traceback
-from tqdm.notebook import tqdm # Ou tqdm padrão
+from tqdm.auto import tqdm
 from datetime import datetime
 
 # Imports da própria biblioteca
